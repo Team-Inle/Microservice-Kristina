@@ -1,45 +1,27 @@
-# Python: Getting Started
+Name:           Kristina Montanez
+Date:           Nov 29, 2021
+Class:          CS361
+Project:        Portfolio Assignment-Microservice
+Description:    API that will scrape Wikipedia artist web pages for the artist info. This 
+                microservice will work with a team mate's program to provide information of
+                songs through Spotify.
 
-A barebones Django app, which can easily be deployed to Heroku.
+__________________________________________________________________________________________
+README TEXT FILE: 
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+The provided zip folder named "montanek-Microservice.zip". 
 
-## Running Locally
+PROJECT OVERVIEW
 
-Make sure you have Python 3.10 [installed locally](https://docs.python-guide.org/starting/installation/). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), as well as [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+An individual project that must use a service provided by a teammate and
+A service that must be used by a teammate as part of their individual project.
+Here's a high-level overview of what you'll be doing this term for the project:
 
-```sh
-$ git clone https://github.com/heroku/python-getting-started.git
-$ cd python-getting-started
+SPRINT OVERVIEW
 
-$ python3 -m venv getting-started
-$ pip install -r requirements.txt
-
-$ createdb python_getting_started
-
-$ python manage.py migrate
-$ python manage.py collectstatic
-
-$ heroku local
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku main
-
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+Week 0: Come up with individual project ideas
+Sprint 1: Get set up, find a team, get to know your team, decide who will do what project/service and how the projects/services will be connected
+Sprint 2: Define project requirements, design GUI UI
+Sprint 3: Implement proof-of-concept (minimum viable product)
+Sprint 4: Implement additional functionality, integrate with teammates' projects
+Sprint 5: Evaluate code quality, revise (refactor), write documentation
